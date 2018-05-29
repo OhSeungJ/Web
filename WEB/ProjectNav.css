@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  maring-top: 50px;
+  margin-left: 50px;
+  font-size: 50px;
+  color: White;
+  font-family: Arial Black;
+  text-shadow: 0 0 5px #FF0000, 0 0 7px #0000FF;
+}
+a:link {
+  color: grey;
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+.element1 {
+  text-shadow: 1px 1px 2px black;
+  color: #CD1039 !important;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  left: 700px;
+  top: 150px;
+}
+.element2 {
+  text-shadow: 1px 1px 2px black;
+  color: #37C3C3 !important;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  font-size: 100px;
+  top: 100px;
+  left: 450px;
+}
+.element3 {
+  text-shadow: 1px 1px 2px black;
+  color: #FFD732 !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  position: absolute;
+  left: 750px;
+  top: 700px;
+}
+.element4 {
+  text-shadow: 1px 1px 2px black;
+  color: #4646CD !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  position: absolute;
+  left: 130px;
+  top: 430px;
+}
+.element5 {
+  text-shadow: 1px 1px 2px black;
+  color: #A814E7 !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  position: absolute;
+  left: 1300px;
+  top: 500px;
+}
+.element6 {
+  text-shadow: 1px 1px 2px black;
+  color: #1E821E !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  position: absolute;
+  left: 370px;
+  top: 130px;
+}
+.element7 {
+  text-shadow: 1px 1px 2px black;
+  color: #FF8200 !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  position: absolute;
+  left: 900px;
+  top: 300px;
+}
+.element8 {
+  text-shadow: 1px 1px 2px black;
+  color: #6FFFC4 !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  position: absolute;
+  left: 900px;
+  top: 200px;
+}
+.element9 {
+  text-shadow: 1px 1px 2px black;
+  color: 	#FF6A89 !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  position: absolute;
+  left: 1000px;
+  top: 400px;
+}
+.element10 {
+  text-shadow: 1px 1px 2px black;
+  color: #D7873C !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  position: absolute;
+  left: 550px;
+  top: 550px;
+}
+@keyframes emphasize {
+  from{}
+  50%{font-size:150px;}
+  to{font-size:100px;}
+}
+.element1:hover{
+  animation: emphasize 1.5s;
+}
+.element2:hover{
+  animation: emphasize 1.5s;
+}
+.element3:hover{
+  animation: emphasize 1.5s;
+}
+.element4:hover{
+  animation: emphasize 1.5s;
+}
+.element5:hover{
+  animation: emphasize 1.5s;
+}
+.element6:hover{
+  animation: emphasize 1.5s;
+}
+.element7:hover{
+  animation: emphasize 1.5s;
+}
+.element8:hover{
+  animation: emphasize 1.5s;
+}
+.element9:hover{
+  animation: emphasize 1.5s;
+}
+.element10:hover{
+  animation: emphasize 1.5s;
+}
+.survey {
+  position: absolute;
+  left: 500px;
+  top: 350px;
+  color: black !important;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Arial;
+  border-top: 150px solid white;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  width: 0;
+  height: 0;
+}
+@keyframes change {
+  from{}
+  to {
+    font-size: 150px;
+    color: red;
+    text-shadow: 2px 2px 3px grey;
+    border-top: 150px solid black;
+  }
+}
+.survey:hover {
+  animation: change 1.5s;
+  animation-fill-mode: forwards;
+}
+.survey:hover .question {
+  position: absolute;
+  top: -165px;
+  left: -45px;
+}
+.question {
+  position: absolute;
+  top:-140px;
+  left: -30px;
+}
+.hide1 {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.element1:hover+.hide1 {
+  display: inline-block;
+}
+.hide2 {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.element2:hover+.hide2 {
+  display: inline-block;
+}
+.hide3 {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.element3:hover+.hide3 {
+  display: inline-block;
+}
+.hide4 {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.element4:hover+.hide4 {
+  display: inline-block;
+}
+.hide5 {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.element5:hover+.hide5 {
+  display: inline-block;
+}
+.hide6 {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.element6:hover+.hide6 {
+  display: inline-block;
+}
+.hide7 {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.element7:hover+.hide7 {
+  display: inline-block;
+}
+.hide8 {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.element8:hover+.hide8 {
+  display: inline-block;
+}
+.hide9 {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.element9:hover+.hide9 {
+  display: inline-block;
+}
+.hide10 {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.element10:hover+.hide10 {
+  display: inline-block;
+}
